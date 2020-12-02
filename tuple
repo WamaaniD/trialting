@@ -1,0 +1,18 @@
+coordinates = (4,5)
+print(coordinates[0])
+
+name = input("Whats your name boo : ")
+age = input("How old are you?")
+def magnum(name,age):
+    print(name + " You're so dope")
+    print("and caring even though you're just " + age)
+
+
+magnum(name,age)
+num = input("Enter a number: ")
+num = int(num)
+def kwaza(num):
+    return num*num*num
+
+
+print(kwaza(num))

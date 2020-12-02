@@ -1,0 +1,22 @@
+k= 1
+while k<=10:
+    print(k)
+    k=k+1
+
+secret = "cat"
+guess = ""
+guess_count = 0
+guess_limit = 5
+oog = False
+
+while guess !=secret and not (oog):
+    if guess_count < guess_limit:
+       guess = input("Guess secret word:")
+       guess_count = guess_count + 1
+    else:
+       oog = True
+
+if oog:
+    print ("You dint guess")
+else:
+    print ("You made it")
